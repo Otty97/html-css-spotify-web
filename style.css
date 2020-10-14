@@ -1,10 +1,10 @@
 * {
-  margin: 0;
   padding: 0;
-  display: border-box;
-  font-family: Verdana;
-  font-size: 14px;
-  color: white;
+  margin: 0;
+  box-sizing: border-box;
+  color:white;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 17px, bold;
 }
 
 .sidebar {
@@ -20,6 +20,17 @@ img {
 
 .logo {
   height: 10%;
+  padding: 10px;
+}
+
+
+.home ul a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  padding-bottom: 10px;
+  font-size:
 }
 
 .main-menu {
@@ -47,8 +58,8 @@ img {
   text-decoration: none;
   border: solid white 2px;
   border-radius: 5%;
-  padding: 5px;
-  border-left: radius 5%;
+  padding: 10px;
+  border-left: radius 25%;
 }
 
 .music-player {
