@@ -30,7 +30,28 @@ img {
   flex-direction: column;
   color: grey;
   padding-bottom: 10px;
-  font-size:
+  padding-left: 10px;
+}
+
+.home ul li:first-child a {
+  color: white;
+  font-size: 18px;
+}
+
+ul li:first-child {
+  border-left: solid #7CFC00 3px;
+}
+
+
+li img {
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+
+.playlist {
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .main-menu {
