@@ -1,49 +1,227 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Spotify Web</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <main>
+</head>
+<body>
+        <div class="nav_bar">
+            <div class="nav_bar_top nodisplay-xs">
+                <img id="logo" src="img/logo.svg" alt="Spotify Logo">
+                <ul class="nav_list">
+                    <li><a href=""><img src="img/home.svg" alt=""> Home</a> </li>
+                    <li><a href=""><img src="img/search.svg" alt="">Cerca</a></li>
+                    <li><a href=""><img src="img/libreria.svg" alt="">La tua libreria</a></li>
+                </ul>
+            </div>
 
-     <section class="sidebar">
-       <div class="logo">
-         <img src="img/logo.svg" alt="spotify-logo">
-       </div>
-       <div class="home">
-         <ul>
-           <li>
-             <img src="img/home.svg" alt="Home">
-             <a href="#">Home</a>
-           </li>
-           <li>
-             <img src="img/search.svg" alt="Search">
-             <a href="#">Cerca</a>
-           </li>
-           <li>
-             <img src="img/libreria.svg" alt="Libreria">
-             <a href="#">La tua playlist</a>
-           </li>
-         </ul>
-       </div>
-      <div class="playlist">
-        <h4>PLAYLIST</h4>
-      </div>
-     </section>
+            <div class="nav_bar_top_xs nodisplay-lg-md">
+                <img src="img/logo-small.svg" alt="">
+                <ul>
+                    <li><a href=""><img src="img/home.svg" alt=""></a></li>
+                    <li><a href=""><img src="img/search.svg" alt=""></a></li>
+                    <li><a href=""><img src="img/libreria.svg" alt=""></a></li>
+                </ul>
+            </div>
 
-     <section class="main-menu">
-      <div class="upgrade">
-         <a href="#">EFFETTUA L'UPGRADE</a>
-      </div>
-     </section>
+                <div class="playlist nodisplay-xs">
+                    <h3>PLAYLIST</h3>
+                    <ul>
+                        <li><a href=""><span>&#43;</span>Crea Playlist</a></li>
+                        <li><a href="">Nuova Playlist</a></li>
+                        <li><a href="">Nuova Playlist</a></li>
+                        <li><a href="">Nuova Playlist</a></li>
+                        <li><a href="">Nuova Playlist</a></li>
+                        <li><a href="">Nuova Playlist</a></li>
+                        <li><a href="">Nuova Playlist</a></li>
+                        <li><a href="">Nuova Playlist</a></li>
+                    </ul>
+                </div>
 
-     <section class="music-player">
+                <div class="nav_bar_bottom nodisplay-xs">
+                    <a href=""><img src="img/download.svg" alt=""> Installa app</a>
+                    <div></div>
+                    <img src="img/profile.svg" alt="profilepic">
+                    <a href="">Utente</a>
+                </div>
 
-     </section>
+                <div class="nav_bar_bottom_xs nodisplay-lg-md">
+                <a href=""><img id="download" src="img/download.svg" alt=""></a>
+                <img id="profile" src="img/profile.svg" alt="profilepic">
+                <a href=""></a>
+                </div>
+        </div>
 
-    </main>
-  </body>
+
+        <div class="main_section_top">
+                    <a href="">EFFETTUA L'UPGRADE</a>
+        </div>
+        <div class="main_section_bottom">
+                    <div class="tab_selection">
+                        <ul>
+                            <li><a href="">Nuova Playlist</a></li>
+                            <li><a href="">Nuova Playlist</a></li>
+                            <li><a href="">Nuova Playlist</a></li>
+                            <li><a href="">Nuova Playlist</a></li>
+                            <li><a href="">Nuova Playlist</a></li>
+                            <li><a href="">Nuova Playlist</a></li>
+                        </ul>
+                    </div>
+                    <div id="recent">
+                        <h2 id="recent_title">Riprodotti di recente</h2>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                </div>
+                                <h3>Heavy Metal</h3>
+                                <h5>Subtitle</h5>
+                            </div>
+                        </div>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/back-in-black.jpg" alt="">
+                                </div>
+                                <h3>Back In Black</h3>
+                                <h5>AC/DC</h5>
+                            </div>
+                        </div>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/money-for-nothing.jpg" alt="">
+                                </div>
+                                <h3>Money For Nothing</h3>
+                                <h5>Dire Straits</h5>
+                            </div>
+                        </div>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/Black-Sabbath-Paranoid.jpg" alt="">
+                                </div>
+                                <h3>War Pigs</h3>
+                                <h5>Black Sabbath</h5>
+                            </div>
+                        </div>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/perfect.jpg" alt="">
+                                </div>
+                                <h3>Perfect Strangers</h3>
+                                <h5>Deep Purple</h5>
+                            </div>
+                        </div>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/unforgiven.jpg" alt="">
+                                </div>
+                                <h3>The Unforgiven II</h3>
+                                <h5>Metallica</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="custom_playlist">
+                        <h2>Creato per te</h2>
+                        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/mixdaily.jpeg" alt="">
+                                </div>
+                                <h3>Daily Mix 1</h3>
+                            </div>
+                        </div>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/radar.jpeg" alt="">
+                                </div>
+                                <h3>Release Radar</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popular_artists">
+                        <h2>Artisti più popolari</h2>
+                        <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/ozzyosbourne_logo.jpg" alt="">
+                                </div>
+                                <h3>Ozzy Osbourne</h3>
+                            </div>
+                        </div>
+                        <div class="play_sheet">
+                            <div>
+                                <div>
+                                    <img class="play_button" src="img/Spotify-Play-Button.png" alt="">
+                                    <img src="img/metallica_logo.jpg" alt="">
+                                </div>
+                                <h3>Metallica</h3>
+
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+
+        <div id="mediaplayer">
+                    <div id="song">
+                        <div>
+                            <img src="img/master.jpg" alt="">
+                        </div>
+                        <div>
+                            <a href=""><h5>Master Of Puppets</h5></a>
+                            <a href=""><h6>Metallica</h6></a>
+                        </div>
+                        <button><i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </button>
+                        <button><i class="fa fa-folder-o" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div id="song_ctrl">
+                        <div>
+                            <button><i class="fa fa-random" aria-hidden="true"></i>
+                            </button>
+                            <button><i class="fa fa-step-backward" aria-hidden="true"></i>
+                            </button>
+                            <button><i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                            </button>
+                            <button><i class="fa fa-step-forward" aria-hidden="true"></i>
+                            </button>
+                            <button><i class="fa fa-repeat" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="time_slider_bar">
+                            <div>1:57</div>
+                            <div id="time_slider"></div>
+                            <div>8:35</div>
+
+                        </div>
+                    </div>
+                    <div id="volume_ctrl">
+                        <button><i class="fa fa-list" aria-hidden="true"></i></button>
+                        <button><i class="fa fa-desktop" aria-hidden="true"></i></button>
+                        <button><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                        <div id="volume_slider"></div>
+                    </div>
+        </div>
+</body>
 </html>
